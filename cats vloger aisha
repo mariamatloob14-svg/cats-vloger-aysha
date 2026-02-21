@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cats Vlogger Aisha</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+    }
+
+    header {
+        background-color: #6b4f3b;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav {
+        background-color: #8b6a52;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    section {
+        padding: 40px;
+        text-align: center;
+    }
+
+    .hero {
+        background-color: white;
+    }
+
+    .services {
+        background-color: #f0e6dd;
+    }
+
+    .contact input, .contact textarea {
+        width: 80%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .contact button {
+        padding: 10px 20px;
+        background-color: #6b4f3b;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    footer {
+        background-color: #6b4f3b;
+        color: white;
+        text-align: center;
+        padding: 15px;
+    }
+
+    @media (max-width: 600px) {
+        nav {
+            flex-direction: column;
+        }
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>🐱 Cats Vlogger Aisha</h1>
+    <p>Adventures, Tips & Cute Cat Moments</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="hero">
+    <h2>Welcome to My Cat Blog 🤍</h2>
+    <p>Hi! I'm Aisha and I share my daily life with my adorable cats. Stay tuned for fun stories, cat care tips, and cute moments!</p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Aisha, a passionate cat lover and vlogger. I created this blog to share everything about my cats and help other cat lovers learn more about caring for their furry friends.</p>
+</section>
+
+<section id="services" class="services">
+    <h2>My Services</h2>
+    <p>🐾 Cat Care Tips</p>
+    <p>🐾 Cat Product Reviews</p>
+    <p>🐾 Daily Cat Vlogs</p>
+    <p>🐾 Pet Lifestyle Advice</p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <input type="text" placeholder="Your Name">
+    <br>
+    <input type="email" placeholder="Your Email">
+    <br>
+    <textarea rows="5" placeholder="Your Message"></textarea>
+    <br>
+    <button>Send Message</button>
+</section>
+
+<footer>
+    © 2026 Cats Vlogger Aisha | All Rights Reserved
+</footer>
+
+</body>
+</html>
